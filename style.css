@@ -10,6 +10,10 @@
     --cor-fundo: #00030c;
 }
 
+.container {
+    height: 100vh;
+}
+
 .banner-principal {
     background-image: url(images/Background.png);
 }
