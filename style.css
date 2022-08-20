@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --branco-principal: #FFF;
+    --cinza-secundario: #c0c0c0;
+    --botao-azul: #167BF7;
+    --cor-fundo: #00030c;
+}
+
+.banner-principal {
+    background-image: url(images/Background.png);
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--branco-principal);
+}
