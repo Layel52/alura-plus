@@ -1,8 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
 :root {
     --branco-principal: #FFF;
     --cinza-secundario: #c0c0c0;
@@ -10,15 +5,37 @@
     --cor-fundo: #00030c;
 }
 
-.container {
-    height: 100vh;
+body {
+    background-color: var(--cor-fundo);
+    color: var(--branco-principal);
+}
+
+* {
+    margin: 0;
+    padding: 0;
 }
 
 .banner-principal {
     background-image: url(images/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
-body {
-    background-color: var(--cor-fundo);
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__botao {
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
     color: var(--branco-principal);
+    display: block;
+}
+
+.botao_secundario {
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
 }
