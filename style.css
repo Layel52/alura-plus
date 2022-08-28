@@ -19,6 +19,13 @@ body {
     padding: 0;
 }
 
+/* 
+-------------HEADER-------------
+*/
+
+
+
+
 .banner-principal {
     background-image: url(images/Background.png);
     background-repeat: no-repeat;
@@ -64,4 +71,28 @@ body {
 
 .container__imagem {
     margin: 1em 0 2em 0;
+}
+
+/* 
+-------------MAIN-------------
+*/
+
+.secundario__imagem {
+    width: 80%;
+}
+
+.secundario  {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+}
+
+.descricao__texto {
+    color: var(--cinza-secundario);
 }
