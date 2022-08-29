@@ -1,7 +1,7 @@
 :root {
     --branco-principal: #FFF;
     --cinza-secundario: #c0c0c0;
-    --botao-azul: #167BF7;
+    --botao-azul: #0d54aa;
     --cor-fundo: #00030c;
     --font-principal: 'inter' ;
 }
@@ -105,3 +105,11 @@ body {
 .container__descricao {
     padding: 2em;
 }
+
+/*-------------DISPOSITIVOS-------------*/
+
+.dispositivos {
+    
+}
+
+/*-------------FOOTER-------------  */
