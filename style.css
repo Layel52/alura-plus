@@ -3,7 +3,8 @@
     --cinza-secundario: #c0c0c0;
     --botao-azul: #0d54aa;
     --cor-fundo: #00030c;
-    --font-principal: 'inter' ;
+    --font-principal: 'inter';
+    --boato-azul-efeito: #3c92fa;
 }
 
 body {
@@ -162,4 +163,9 @@ body {
     margin: 1em;
     font-size: 14;
     color: var(--cinza-secundario);
+}
+
+.container__botao:hover {
+    background-color: var(--boato-azul-efeito);
+    color: black;
 }
